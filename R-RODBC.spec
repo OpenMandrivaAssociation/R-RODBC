@@ -9,10 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL-2 | GPL-3
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.3-4.tar.gz
-Requires:         R-utils 
-Requires:         R-stats 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-utils
-BuildRequires:    R-stats 
+Requires:         R-utils R-stats
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-utils R-stats
 BuildRequires:    unixODBC-devel
 
 %description
