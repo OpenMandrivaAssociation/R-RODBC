@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.3_4
-Release:          2
+Version:          1.3.6
+Release:          1
 Summary:          ODBC Database Access
 Group:            Sciences/Mathematics
 License:          GPL-2 | GPL-3
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.3-4.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/RODBC_1.3-6.tar.gz
 Requires:         R-utils 
 Requires:         R-stats 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-utils
@@ -46,16 +46,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/po
 %{rlibdir}/%{packname}/tests.R
-
-
-%changelog
-* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.3_4-2
-+ Revision: 775095
-- Update to latest version
-- Update to latest version
-
-* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.3_3-1
-+ Revision: 774929
-- Import R-RODBC
-- Import R-RODBC
-
