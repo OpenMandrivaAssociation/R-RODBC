@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.3.9
+Version:          1.3.10
 Release:          1
 Summary:          ODBC Database Access
 Group:            Sciences/Mathematics
 License:          GPL-2 | GPL-3
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/RODBC_1.3-9.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/RODBC_1.3-10.tar.gz
 Requires:         R-utils 
 Requires:         R-stats 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-utils
@@ -46,4 +46,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/po
 %{rlibdir}/%{packname}/tests.R
+
 
