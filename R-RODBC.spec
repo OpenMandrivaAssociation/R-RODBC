@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.3.10
-Release:          1
+Release:          2
 Summary:          ODBC Database Access
 Group:            Sciences/Mathematics
 License:          GPL-2 | GPL-3
